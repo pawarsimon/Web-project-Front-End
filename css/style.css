@@ -1,0 +1,109 @@
+html {
+    background-color: #006BBf;
+}
+h1, h2, h3, h4, p{
+	margin: 0;
+	padding: 0;
+}
+body {
+    width: 960px;
+    margin: 0px auto;
+    font-family: 'Open Sans', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+header {
+    width: 960px;
+    float: left;
+    text-align: center;
+    background: url('../img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: 4px 4px 8px #666;
+    font-weight: bold;
+    color: #fff;
+}
+main {
+    background-color: #fff;
+    margin: 0px;
+    padding: 0px;
+    color: #000;
+}
+/* navigation link*/
+
+nav {
+    display: block;
+    margin: 0px;
+}
+nav ul {
+    list-style: none;
+    float: left;
+    margin: 0px;
+    width: 960px;
+    padding: 0px;
+}
+nav ul li {
+    float: left;
+    display: block;
+    background-color: #a7addc;
+    padding: 10px;
+    width: 220px;
+    text-align: center;
+    font-weight: bold;
+}
+nav ul li a {
+    color: #000;
+    text-decoration: none;
+}
+header h1 {
+    color: #fff;
+    padding: 20px;
+    font-weight: bold;
+}
+header h4 {
+	color: #eee;
+	padding: 20px;
+    font-weight: bold;
+}
+nav ul {
+    margin-bottom: 30px;
+}
+.front-page img {
+    margin-top: -30px;
+	width: 100%;
+}
+.front-page {
+	text-align: center;
+}
+.front-page h2 {
+	text-transform: uppercase;
+}
+.front-page article,
+.about-page h2 {
+	padding: 20px;
+}
+
+.about-page p,
+.rating-page p {
+    padding: 15px;
+}
+.about-page h2,
+.rating-page h2 {
+    padding-top: 20px;
+    padding: 15px;
+    text-align: center;
+}
+
+.form {
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+}
+
+footer {
+	text-align: center;
+	background: #555;
+	color: #eee;
+	padding: 4px;
+}
